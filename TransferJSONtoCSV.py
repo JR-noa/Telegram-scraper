@@ -26,7 +26,7 @@ def json_to_csv(json_file_path, csv_file_path):
         print(f"An unexpected error occurred: {e}")
 
 # Replace 'your_json_file.json' and 'output_csv_file.csv' with the appropriate file paths
-json_file_path = r'C:\Users\jakub\Documents\Scraper\channel_messages.json'
-csv_file_path = r'C:\Users\jakub\Documents\Scraper\channel_messages_sorted6.csv'
+json_file_path = r'XXX'
+csv_file_path = r'XXX'
 
 json_to_csv(json_file_path, csv_file_path)
