@@ -22,14 +22,14 @@ config = configparser.ConfigParser()
 config.read("config.ini")
 
 # Setting configuration values
-api_id = '27097639'  # config['Telegram']['api_id']
-api_hash = 'a7ca6c798ef5cfb178b5bee3de01b65a'  # config['Telegram']['api_hash']
+api_id = 'XXX'  # config['Telegram']['api_id']
+api_hash = 'XXX'  # config['Telegram']['api_hash']
 
 api_hash = str(api_hash)
 
 # Researcher data here
-phone = '+421918707184'  # config['Telegram']['phone']
-username = "ValorMaul"  # config['Telegram']['username'] #your username on telegram
+phone = 'XXX'  # config['Telegram']['phone']
+username = "XXX"  # config['Telegram']['username'] #your username on telegram
 
 # Create the client and connect
 client = TelegramClient(phone, api_id, api_hash)
